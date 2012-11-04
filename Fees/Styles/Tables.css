@@ -1,0 +1,83 @@
+﻿/* ------------------
+ styling for the tables 
+   ------------------   */
+
+
+body {
+    line-height: 1.6em;
+}
+
+#box-table-a
+{
+    float: left;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 20px;
+	width: 400px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#box-table-a th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	background: #bababa;
+	border-top: 4px solid #8d3150;
+	border-bottom: 1px solid #fff;
+	color: #8d3150;
+}
+#box-table-a td
+{
+	padding: 8px;
+	background: #e2e2e2; 
+	border-bottom: 1px solid #fff;
+	color: #000;
+	border-top: 1px solid transparent;
+}
+#box-table-a tr:hover td
+{
+	background: #fdfdfd;
+	color: #8d3150;
+}
+
+
+#gradient-style
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 20px;
+	width: 550px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#gradient-style th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	background: #bababa;
+	border-top: 2px solid #d3d3d3;
+	border-bottom: 1px solid #fff;
+	color: #8d3150;
+}
+#gradient-style td
+{
+	padding: 8px; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid #fff;
+	background: #e2e2e2;
+}
+#gradient-style tfoot tr td
+{
+	background: #e8edff;
+	font-size: 12px;
+	color: #99c;
+}
+#gradient-style tbody tr:hover td
+{
+	background: #fdfdfd url('table-images/gradhover.png') repeat-x;
+	color: #339;
+}
+

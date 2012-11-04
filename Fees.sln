@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModule.ClubManager", "..\ClubManager\DataModule.ClubManager\DataModule.ClubManager.csproj", "{FDF0A97C-20EB-4865-B7E0-E7410493F599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeesOnline", "Fees\FeesOnline.csproj", "{0B120ED8-67D6-4D11-9E1E-452A7F1922BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B120ED8-67D6-4D11-9E1E-452A7F1922BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B120ED8-67D6-4D11-9E1E-452A7F1922BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B120ED8-67D6-4D11-9E1E-452A7F1922BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B120ED8-67D6-4D11-9E1E-452A7F1922BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF0A97C-20EB-4865-B7E0-E7410493F599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF0A97C-20EB-4865-B7E0-E7410493F599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF0A97C-20EB-4865-B7E0-E7410493F599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF0A97C-20EB-4865-B7E0-E7410493F599}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
